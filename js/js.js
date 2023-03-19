@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navigator.getBattery().then(function (battery) {
       var percentage = battery.level * 100;
   
-      if (percentage <= 67) {
+      if (percentage <= 15) {
         optimizeForLowBattery();
       } else {
         optimizeForNormalBattery();
