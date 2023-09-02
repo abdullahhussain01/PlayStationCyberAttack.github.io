@@ -271,7 +271,13 @@ p,h1,.author-info,.social{
   padding: 10px 10px;
   margin-right: 1rem;
   cursor: pointer;
+  border-radius: 5px;
 }
+
+.nav-right button:hover{
+  background-color: yellow;
+}
+
 .linkbtn{
   padding: 10px 10px;
   margin-right: 1rem;
